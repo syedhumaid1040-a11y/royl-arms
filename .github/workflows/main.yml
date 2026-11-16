@@ -1,0 +1,36 @@
+name: Build JAR
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          java-version: '21'
+          distribution: 'temurin'
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Find and Build Project
+        run: |
+          PROJECT_DIR=$(find . -name "build.gradle.kts" -o -name "build.gradle" | head -n 1 | xargs dirname)
+          echo "Building inside: $PROJECT_DIR"
+          cd "$PROJECT_DIR"
+          gradle build --no-daemon
+
+      - name: Collect JAR
+        run: |
+          mkdir -p out_jars
+          find . -path "./out_jars" -prune -o -path "*/build/libs/*.jar" ! -name "*-sources.jar" ! -name "*-javadoc.jar" -exec cp {} out_jars/ \;
+          ls -la out_jars/
+
+      - name: Upload JAR
+        uses: actions/upload-artifact@v4
+        with:
+          name: RoyalArms-JAR
+          path: out_jars/*.jar
