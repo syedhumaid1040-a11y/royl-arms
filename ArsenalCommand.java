@@ -1,0 +1,25 @@
+package dev.royalarms;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+public final class ArsenalCommand implements CommandExecutor {
+
+    private final RoyalArms plugin;
+
+    public ArsenalCommand(RoyalArms plugin) {
+        this.plugin = plugin;
+    }
+
+    @Override
+    public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
+        if (!(sender instanceof Player p)) {
+            sender.sendMessage("Players only.");
+            return true;
+        }
+        new ArsenalGui(plugin).open(p);
+        return true;
+    }
+}

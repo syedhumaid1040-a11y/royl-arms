@@ -1,0 +1,31 @@
+name: RoyalArms
+version: 2.1.0
+main: dev.royalarms.RoyalArms
+api-version: '26.2'
+description: Legendary weapons with power bars, kill unlocks, altars and shrines
+commands:
+  arms:
+    description: RoyalArms admin command
+    usage: /arms <give|power|timer|altar|shrine|gui>
+    permission: royalarms.admin
+  arsenal:
+    description: Browse the RoyalArms weapons and recipes
+    aliases: [weapons]
+    permission: royalarms.use
+  recipes:
+    description: Open the weapon and artifact recipe menu
+    aliases: [royalrecipes]
+    permission: royalarms.use
+  ability1:
+    description: Cast ability 1 of the weapon in your hand
+    permission: royalarms.use
+  ability2:
+    description: Cast ability 2 of the weapon in your hand
+    permission: royalarms.use
+permissions:
+  royalarms.admin:
+    description: Use /arms
+    default: op
+  royalarms.use:
+    description: Use /arsenal, /ability1, /ability2
+    default: true

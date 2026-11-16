@@ -1,0 +1,183 @@
+{
+  "format_version": 2,
+  "items": {
+    "minecraft:mace": [
+      {
+        "type": "definition",
+        "model": "royalarms:shockwave",
+        "bedrock_identifier": "royalarms:shockwave",
+        "display_name": "Shockwave",
+        "bedrock_options": {
+          "icon": "royalarms_shockwave",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      },
+      {
+        "type": "definition",
+        "model": "royalarms:void_hammer",
+        "bedrock_identifier": "royalarms:void_hammer",
+        "display_name": "Void Hammer",
+        "bedrock_options": {
+          "icon": "royalarms_void_hammer",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      }
+    ],
+    "minecraft:netherite_sword": [
+      {
+        "type": "definition",
+        "model": "royalarms:lifestealer",
+        "bedrock_identifier": "royalarms:lifestealer",
+        "display_name": "Lifestealer",
+        "bedrock_options": {
+          "icon": "royalarms_lifestealer",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      },
+      {
+        "type": "definition",
+        "model": "royalarms:afterburner",
+        "bedrock_identifier": "royalarms:afterburner",
+        "display_name": "Afterburner",
+        "bedrock_options": {
+          "icon": "royalarms_afterburner",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      }
+    ],
+    "minecraft:netherite_axe": [
+      {
+        "type": "definition",
+        "model": "royalarms:warden_battleaxe",
+        "bedrock_identifier": "royalarms:warden_battleaxe",
+        "display_name": "Warden Battleaxe",
+        "bedrock_options": {
+          "icon": "royalarms_warden_battleaxe",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      }
+    ],
+    "minecraft:netherite_spear": [
+      {
+        "type": "definition",
+        "model": "royalarms:primal_spear",
+        "bedrock_identifier": "royalarms:primal_spear",
+        "display_name": "Primal Spear",
+        "bedrock_options": {
+          "icon": "royalarms_primal_spear",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      }
+    ],
+    "minecraft:leather_horse_armor": [
+      {
+        "type": "definition",
+        "model": "royalarms:cloak_of_shadows",
+        "bedrock_identifier": "royalarms:cloak_of_shadows",
+        "display_name": "Cloak of Shadows",
+        "bedrock_options": {
+          "icon": "royalarms_cloak_of_shadows",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ],
+    "minecraft:firework_star": [
+      {
+        "type": "definition",
+        "model": "royalarms:jumbo_rocket",
+        "bedrock_identifier": "royalarms:jumbo_rocket",
+        "display_name": "Jumbo Rocket",
+        "bedrock_options": {
+          "icon": "royalarms_jumbo_rocket",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ],
+    "minecraft:feather": [
+      {
+        "type": "definition",
+        "model": "royalarms:phoenix_feather",
+        "bedrock_identifier": "royalarms:phoenix_feather",
+        "display_name": "Phoenix Feather",
+        "bedrock_options": {
+          "icon": "royalarms_phoenix_feather",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ],
+    "minecraft:breeze_rod": [
+      {
+        "type": "definition",
+        "model": "royalarms:gale_rod",
+        "bedrock_identifier": "royalarms:gale_rod",
+        "display_name": "Gale Rod",
+        "bedrock_options": {
+          "icon": "royalarms_gale_rod",
+          "allow_offhand": true,
+          "display_handheld": true
+        }
+      }
+    ],
+    "minecraft:clock": [
+      {
+        "type": "definition",
+        "model": "royalarms:chrono_clock",
+        "bedrock_identifier": "royalarms:chrono_clock",
+        "display_name": "Chrono Clock",
+        "bedrock_options": {
+          "icon": "royalarms_chrono_clock",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ],
+    "minecraft:compass": [
+      {
+        "type": "definition",
+        "model": "royalarms:tracker_compass",
+        "bedrock_identifier": "royalarms:tracker_compass",
+        "display_name": "Tracker Compass",
+        "bedrock_options": {
+          "icon": "royalarms_tracker_compass",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ],
+    "minecraft:milk_bucket": [
+      {
+        "type": "definition",
+        "model": "royalarms:bucket_of_malk",
+        "bedrock_identifier": "royalarms:bucket_of_malk",
+        "display_name": "Bucket of Malk",
+        "bedrock_options": {
+          "icon": "royalarms_bucket_of_malk",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ],
+    "minecraft:lava_bucket": [
+      {
+        "type": "definition",
+        "model": "royalarms:bucket_of_greed",
+        "bedrock_identifier": "royalarms:bucket_of_greed",
+        "display_name": "Bucket of Greed",
+        "bedrock_options": {
+          "icon": "royalarms_bucket_of_greed",
+          "allow_offhand": true,
+          "display_handheld": false
+        }
+      }
+    ]
+  }
+}
